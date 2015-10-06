@@ -921,3 +921,6 @@ button {
 .main-logo {
     width: 180px;
 }
+header input {
+    height: 48px    !important;
+}
