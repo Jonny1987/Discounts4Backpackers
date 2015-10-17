@@ -259,6 +259,10 @@ fieldset[disabled] .btn-xl.active {
     .navbar-default.navbar-shrink .navbar-brand {
         font-size: 1.5em;
     }
+
+    .navbar-shrink .share-header {
+        display: block;
+    }
 }
 
 header {
@@ -739,7 +743,6 @@ footer span.copyright {
     text-transform: uppercase;
     text-transform: none;
     font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
-    line-height: 40px;
 }
 
 footer ul.quicklinks {
@@ -747,7 +750,6 @@ footer ul.quicklinks {
     text-transform: uppercase;
     text-transform: none;
     font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
-    line-height: 40px;
 }
 
 ul.social-buttons {
@@ -767,6 +769,7 @@ ul.social-buttons li a {
     -webkit-transition: all .3s;
     -moz-transition: all .3s;
     transition: all .3s;
+    text-align: center;
 }
 
 ul.social-buttons li a:hover,
@@ -931,4 +934,64 @@ button {
 }
 header input {
     height: 48px    !important;
+}
+
+div.share-header {
+    display: none;
+    float: right;
+    color: white;
+}
+
+div.share-footer {
+    color: black;
+}
+
+div.share {
+    font-size: 15px;
+    text-align: center;
+    text-transform: uppercase;
+    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+
+@media (min-width: 480px) and (max-width: 767px) {
+    div.share-header {
+        display: block;
+        margin-top: 5px;
+        margin-right: 50px;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+    .navbar-shrink .share-header {
+        margin-left: 50px;
+    }
+}
+
+@media (min-width: 992px) and (max-width: 1199px) {
+    .navbar-shrink .share-header {
+        margin-left: 220px;
+    }
+}
+
+@media (max-width: 991px) {
+    div.share-footer {
+        margin-bottom: 15px
+    }
+}
+@media (min-width: 1200px) {
+    .navbar-shrink .share-header {
+        margin-left: 320px;
+    }
+}
+
+@media (min-width: 992px) {
+    div.share-footer {
+        margin-top: -15px;
+    }
+    footer ul.quicklinks {
+        line-height: 40px;
+    }
+    footer span.copyright {
+        line-height: 40px;
+    }
 }
