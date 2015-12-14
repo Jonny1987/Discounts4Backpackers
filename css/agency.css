@@ -10,7 +10,7 @@ body {
 }
 
 .text-muted {
-    color: #777;
+    color: #DDD;
 }
 
 .text-primary {
@@ -61,7 +61,7 @@ h6 {
 }
 
 .bg-light-gray {
-    background-color: #f7f7f7;
+    background-color: #222;
 }
 
 .bg-darkest-gray {
@@ -119,14 +119,14 @@ fieldset[disabled] .btn-primary.active {
 
 .btn-xl {
     padding: 20px 40px;
-    border-color: ##CE329F;
+    border-color: #42D05D;
     border-radius: 3px;
     text-transform: uppercase;
     font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
     font-size: 18px;
     font-weight: 700;
     color: #fff;
-    background-color: #CE329F;
+    background-color: #42D05D;
 }
 
 .btn-xl:hover,
@@ -326,6 +326,7 @@ header .intro-text .intro-heading {
 
 section {
     padding: 100px 0;
+    color: #EEE;
 }
 
 section h2.section-heading {
@@ -345,7 +346,7 @@ section h3.section-subheading {
 
 @media(min-width:768px) {
     section {
-        padding: 150px 0;
+        padding: 100px 0;
     }
 }
 
@@ -995,4 +996,10 @@ div.share {
     footer span.copyright {
         line-height: 40px;
     }
+}
+
+section#business-summary {
+    padding: 75px 0px;
+    background: #eee;
+    color: #222
 }
