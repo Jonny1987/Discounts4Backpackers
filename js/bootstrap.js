@@ -1906,6 +1906,7 @@ if (typeof jQuery === 'undefined') {
     var offsets      = this.offsets
     var targets      = this.targets
     var activeTarget = this.activeTarget
+    var navbarHeight = $('.navbar').height() //Added to solve navbar problem
     var i
 
     if (this.scrollHeight != scrollHeight) {
@@ -1923,8 +1924,8 @@ if (typeof jQuery === 'undefined') {
 
     for (i = offsets.length; i--;) {
       activeTarget != targets[i]
-        && scrollTop >= offsets[i]
-        && (offsets[i + 1] === undefined || scrollTop < offsets[i + 1])
+        && scrollTop >= offsets[i] - navbarHeight
+        && (offsets[i + 1] === undefined || scrollTop < offsets[i + 1] - navbarHeight)
         && this.activate(targets[i])
     }
   }
