@@ -10,7 +10,7 @@ $(function() {
         var $anchor = $(this);
         $('html, body').stop().animate({
             scrollTop: $($anchor.attr('href')).offset().top - $('nav').height()
-        }, 1500, 'easeInOutExpo');
+        }, 1000, 'easeInOutQuart');
         event.preventDefault();
     });
 });
