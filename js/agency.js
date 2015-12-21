@@ -9,7 +9,7 @@ $(function() {
     $('a.page-scroll').bind('click', function(event) {
         var $anchor = $(this);
         $('html, body').stop().animate({
-            scrollTop: $($anchor.attr('href')).offset().top - $('nav').height()
+            scrollTop: $($anchor.attr('href')).offset().top - $('.navbar-header').height()
         }, 1000, 'easeInOutQuart');
         event.preventDefault();
     });

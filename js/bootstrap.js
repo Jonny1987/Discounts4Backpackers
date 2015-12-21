@@ -1906,7 +1906,7 @@ if (typeof jQuery === 'undefined') {
     var offsets      = this.offsets
     var targets      = this.targets
     var activeTarget = this.activeTarget
-    var navbarHeight = $('.navbar').height() //Added to solve navbar problem
+    var navbarHeight = $('.navbar-header').height() //Added to solve navbar problem
     var i
 
     if (this.scrollHeight != scrollHeight) {
