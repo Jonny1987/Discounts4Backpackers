@@ -894,9 +894,9 @@ body {
         width: 55%;
     }
 }
-@media(min-width: 350px) {
+@media(min-width: 370px) {
     header .intro-text > .row {
-        width:350px;
+        width:340px;
         margin: auto;
     }
 }
