@@ -10,7 +10,7 @@ body {
 }
 
 .wrapper {
-    width: 600px;
+    max-width: 600px;
     margin: 0 auto 10px auto;
     text-align: left;
     background-color: #222222; 
