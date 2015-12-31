@@ -141,37 +141,37 @@ li.ad div.ad-desc h2 {
 }
 
 li.ad1 div.ad-image {
-	background-image: url(../img/meal.jpg);
+	background-image: url(../img/mockup/meal.jpg);
     background-size: 289px 194px;
     background-position: 0px -36px;
 }
 
 li.ad2 div.ad-image {
-	background-image: url(../img/cocktails.jpg);
+	background-image: url(../img/mockup/cocktails.jpg);
 	background-size: 289px 198px;
 	background-position: -5px -36px;
 }
 
 li.ad3 div.ad-image {
-	background-image: url(../img/surfing.jpg);
+	background-image: url(../img/mockup/surfing.jpg);
 	background-size: 320px 187px;
 	background-position: -27px -1px;
 }
 
 li.ad4 div.ad-image {
-	background-image: url(../img/flight.jpg);
+	background-image: url(../img/mockup/flight.jpg);
 	background-size: 280px 156px;
     background-position: -1px -3px;
 }
 
 li.ad5 div.ad-image {
-	background-image: url(../img/kings-canyon.jpg);
+	background-image: url(../img/mockup/kings-canyon.jpg);
 	background-size: 320px 192px;
 	background-position: -25px -6px;
 }
 
 li.ad6 div.ad-image {
-	background-image: url(../img/bedroom.jpg);
+	background-image: url(../img/mockup/bedroom.jpg);
 	background-size: 252px 152px;
 	background-position: -30px -3px;
 }
