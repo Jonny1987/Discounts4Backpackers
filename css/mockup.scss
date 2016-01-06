@@ -1,0 +1,205 @@
+ @import '_palette.scss';
+
+.signup {
+	border-radius: 3px;
+	color: #fff;
+	background-color: $navbar-buttons-active;
+}
+
+.navbar-default .navbar-nav>li>a.signup:hover,
+.navbar-default .navbar-nav>li>a.signup:focus {
+	background: $navbar-buttons-active-mockup-hover;
+	color: #FFFFFF;
+}
+
+.navbar-default.navbar-shrink {
+	padding-left: 40px;
+	padding-right: 40px;
+}
+
+@media (max-width: 767px) {
+	.navbar-default.navbar-shrink {
+		padding-left: 10px;
+		padding-right: 10px;
+	}
+}
+
+header .intro-text {
+	max-width: 532px;
+	margin: auto;
+}
+
+header .intro-text .intro-heading {
+	font-weight: bold;
+	font-style: normal;
+	font-size: 3.375em;
+	margin-bottom: 45px;
+	text-transform: inherit;
+}
+
+.sub-heading {
+	text-transform: inherit;
+	font-weight: normal;	
+	font-family: Helvetica;
+}
+
+header {
+	background-image: url(../img/bg1.jpg);
+}
+
+input.form-control {
+	position: relative;
+	margin-top: 10px;
+	padding-right: 3.5em;
+	min-width: 20em;
+	width: 100%;
+	border: 4px solid $navbar-buttons-active;
+}
+
+button.search-button {
+	margin-right: 14px;
+	color: $navbar-buttons-active;
+	font-size: 1.25em;
+	position: absolute;
+	top: 0;
+	right: 0;
+	height: 100%;
+	background: $navbar-buttons-active;
+	border-style: none;	
+	border-radius: 5px;
+	width: inherit;
+}
+
+button.search-button:before {
+	content: '\f002';
+	font: normal normal normal 14px/1 FontAwesome;
+	font-size: inherit;
+	display: inline-block;
+	width: 1em;
+	margin-right: .2em;
+	text-align: center;
+	margin-left: .2em;
+	border-style: none;
+	-webkit-font-smoothing: antialiased;
+	color: #FFFFFF;	
+}
+
+@media (min-width: 768px) {
+	header .intro-text {
+		padding-top: 160px;
+		padding-bottom: 114px;
+	}
+}
+
+ul.deals {
+	list-style-type: none;
+	padding: 0px;
+}
+
+div.results div.section-contents {
+	padding: 4px;
+    padding-top: 12px;
+	background-color: $results-bg;
+}
+
+li.ad .ad-desc h3 {
+	margin-top: 5px;
+}
+
+li.ad {
+	width: 32.3333%;
+    margin: 0 0.5% 8px 0.5%;
+	display: inline-block;
+	vertical-align: top;
+	position: relative;
+	background: #fff;
+	box-shadow: 0 2px 1px 0 rgba(0, 0, 0, 0.1);
+	-webkit-box-shadow: 0 2px 1px 0 rgba(0, 0, 0, 0.1);
+	-moz-box-shadow: 0 2px 1px 0 rgba(0, 0, 0, 0.1);
+	border: 1px solid $ad-border;
+}
+
+li.blank-ad {
+	text-align: center;
+	vertical-align: middle;
+	font-size: 50px;
+	padding-top: 11%;
+	height: 281px;
+}
+
+li.ad div.ad-image {
+	height: 150px;
+	background-position: center !important;
+	background-size: cover !important;
+}
+
+li.ad div.ad-desc {
+	display: inline-block;
+	background: white;
+	padding: 10px;
+	height: 130px;
+	width: 100%;
+}
+
+li.ad div.ad-desc h2 {
+	margin-top: 0;
+}
+
+li.ad1 div.ad-image {
+	background-image: url(../img/mockup/meal.jpg);
+    background-size: 289px 194px;
+    background-position: 0px -36px;
+}
+
+li.ad2 div.ad-image {
+	background-image: url(../img/mockup/cocktails.jpg);
+	background-size: 289px 198px;
+	background-position: -5px -36px;
+}
+
+li.ad3 div.ad-image {
+	background-image: url(../img/mockup/surfing.jpg);
+	background-size: 320px 187px;
+	background-position: -27px -1px;
+}
+
+li.ad4 div.ad-image {
+	background-image: url(../img/mockup/flight.jpg);
+	background-size: 280px 156px;
+    background-position: -1px -3px;
+}
+
+li.ad5 div.ad-image {
+	background-image: url(../img/mockup/kings-canyon.jpg);
+	background-size: 320px 192px;
+	background-position: -25px -6px;
+}
+
+li.ad6 div.ad-image {
+	background-image: url(../img/mockup/bedroom.jpg);
+	background-size: 252px 152px;
+	background-position: -30px -3px;
+}
+
+
+li.ad div.desc {
+	display: block;
+}
+
+div.section-title {
+	padding: 10px;
+	text-transform: uppercase;
+	font-size: 20px;
+	font-weight: 700;	
+	font-family: Montserrat;
+	background-color: #222;
+	color: $text-muted;
+}
+
+section.business-summary div.summary {
+	font-size: 17px;
+}
+
+section.business-summary div.summary b {
+	font-size: 19px;
+}
