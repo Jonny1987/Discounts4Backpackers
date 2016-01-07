@@ -830,8 +830,52 @@ section#business-summary .summary {
   background-color: #fff;
   padding: 40px; }
 
-@media (min-width: 450px) {
-  #business-summary {
-    font-size: 16px; } }
+section#business-summary .summary div.summary-heading {
+  display: inline-block;
+  color: #FF9532; }
+
+section#business-summary .summary div.summary-text {
+  display: inline-block;
+  max-width: 400px;
+  vertical-align: middle;
+  font-size: 17px;
+  max-width: 500px; }
+
+section#business-summary .summary div.summary-text b {
+  font-size: 24px; }
+
+@media (max-width: 300px) {
+  section#business-summary .summary div.summary-text {
+    font-size: 15px; }
+
+  section#business-summary .summary div.summary-text b {
+    font-size: 17px; } }
+@media (min-width: 300px) {
+  section#business-summary .summary div.summary-text {
+    font-size: 16px; }
+
+  section#business-summary .summary div.summary-text b {
+    font-size: 18px; } }
+@media (min-width: 350px) {
+  section#business-summary .summary div.summary-text b {
+    font-size: 19px; } }
+@media (min-width: 451px) {
+  section#business-summary .summary div.summary-text {
+    font-size: 17px; }
+
+  section#business-summary .summary div.summary-text b {
+    font-size: 20px; } }
+@media (min-width: 600px) {
+  section#business-summary .summary div.summary-text b {
+    font-size: 22px; }
+
+  section#business-summary .summary div.summary-heading {
+    margin: 0 70px 0 70px; } }
+@media (min-width: 992px) {
+  section#business-summary .summary div.summary-text b {
+    font-size: 24px; }
+
+  section#business-summary .summary div.summary-text {
+    max-width: 400px; } }
 
 /*# sourceMappingURL=agency.css.map */
