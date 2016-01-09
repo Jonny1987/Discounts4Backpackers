@@ -235,11 +235,14 @@ fieldset[disabled] .btn-xl.active {
     margin-top: 5px;
 }
 
+.navbar-shrink {
+    background-color: $navbar-shrink;
+}
+
 @media(min-width:768px) {
     .navbar-default {
         padding: 25px 0;
         border: 0;
-        background-color: transparent;
         -webkit-transition: padding .3s;
         -moz-transition: padding .3s;
         transition: padding .3s;
