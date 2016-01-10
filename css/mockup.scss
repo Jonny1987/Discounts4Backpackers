@@ -104,10 +104,11 @@ div.results div.section-contents {
 
 li.ad .ad-desc h3 {
 	margin-top: 5px;
+	font-family: helvetica;
 }
 
 li.ad {
-	width: 32.3333%;
+	width: 99%;
     margin: 0 0.5% 8px 0.5%;
 	display: inline-block;
 	vertical-align: top;
@@ -122,13 +123,13 @@ li.ad {
 li.blank-ad {
 	text-align: center;
 	vertical-align: middle;
-	font-size: 50px;
-	padding-top: 11%;
+	font-size: 250px;
 	height: 281px;
+	line-height: 250px;
 }
 
 li.ad div.ad-image {
-	height: 150px;
+	height: 200px;
 	background-position: center !important;
 	background-size: cover !important;
 }
@@ -188,11 +189,10 @@ li.ad div.desc {
 
 div.section-title {
 	padding: 10px;
-	text-transform: uppercase;
 	font-size: 20px;
-	font-weight: 700;	
+	font-weight: 300;	
 	font-family: Montserrat;
-	background-color: #222;
+	background-color: #407C8C;
 	color: $text-muted;
 }
 
@@ -202,4 +202,28 @@ section.business-summary div.summary {
 
 section.business-summary div.summary b {
 	font-size: 19px;
+}
+
+@media(min-width: 401px) {
+	li.ad {
+		width: 49%;
+	}
+}
+
+@media(min-width: 601px) {
+	li.ad {
+		width: 32.3333%;
+	}
+}
+
+@media(min-width: 901px) {
+	li.ad {
+		width: 24%;
+	}
+}
+
+@media(min-width: 1200px) {
+	li.ad {
+		width: 19%;
+	}
 }
