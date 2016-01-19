@@ -125,7 +125,7 @@ fieldset[disabled] .btn-primary.active {
 .btn-xl.active,
 .open .dropdown-toggle.btn-xl {
   color: #fff;
-  background-color: #btn-xl-bg-hover; }
+  background-color: #FF3A78; }
 
 .btn-xl:active,
 .btn-xl.active,
@@ -180,7 +180,10 @@ fieldset[disabled] .btn-xl.active {
 
 .navbar-default .navbar-toggle:hover,
 .navbar-default .navbar-toggle:focus {
-  background-color: #FF9532; }
+  background-color: transparent; }
+
+.navbar-default .navbar-collapse ul.navbar-nav {
+  background: #1E6375; }
 
 .navbar-default .nav li a {
   text-transform: uppercase;
