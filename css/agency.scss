@@ -216,8 +216,10 @@ fieldset[disabled] .btn-xl.active {
     background-color: transparent;
 }
 
-.navbar-default .navbar-collapse ul.navbar-nav {
-    background: $navbar-shrink;
+@media (max-width: 767px) {
+    .navbar-default .navbar-collapse ul.navbar-nav {
+        background: $navbar-shrink;
+    }
 }
 
 .navbar-default .nav li a {
