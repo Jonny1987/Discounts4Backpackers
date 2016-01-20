@@ -182,8 +182,11 @@ fieldset[disabled] .btn-xl.active {
 .navbar-default .navbar-toggle:focus {
   background-color: transparent; }
 
-.navbar-default .navbar-collapse ul.navbar-nav {
-  background: #1E6375; }
+@media (max-width: 767px) {
+    .navbar-default .navbar-collapse ul.navbar-nav {
+        background: #1E6375;
+    }
+}
 
 .navbar-default .nav li a {
   text-transform: uppercase;
