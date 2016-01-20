@@ -183,11 +183,8 @@ fieldset[disabled] .btn-xl.active {
   background-color: transparent; }
 
 @media (max-width: 767px) {
-    .navbar-default .navbar-collapse ul.navbar-nav {
-        background: #1E6375;
-    }
-}
-
+  .navbar-default .navbar-collapse ul.navbar-nav {
+    background: #1E6375; } }
 .navbar-default .nav li a {
   text-transform: uppercase;
   font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
