@@ -27,6 +27,9 @@ header .intro-text .intro-heading {
   margin-bottom: 45px;
   text-transform: inherit; }
 
+header .intro-text > .row {
+  width: inherit; }
+
 .sub-heading {
   text-transform: inherit;
   font-weight: normal;
@@ -37,30 +40,27 @@ header {
 
 input.form-control {
   position: relative;
-  margin-top: 10px;
   padding-right: 3.5em;
-  min-width: 20em;
   width: 100%;
   border: 4px solid #FF9532;
   font-size: 16px; }
 
 button.search-button {
-  margin-right: 14px;
   color: #FF9532;
   font-size: 1.25em;
   position: absolute;
   top: 0;
-  right: 0;
+  right: 15px;
   height: 100%;
   background: #FF9532;
   border-style: none;
   border-radius: 5px;
-  width: inherit; }
+  width: 50px; }
 
 button.search-button:before {
   content: '\f002';
-  font: normal normal normal 14px/1 FontAwesome;
-  font-size: inherit;
+  font: normal normal normal 14px/1.5 FontAwesome;
+  font-size: 1.375em;
   display: inline-block;
   width: 1em;
   margin-right: .2em;
