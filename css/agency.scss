@@ -30,14 +30,9 @@ p.large {
 }
 
 span.small-print {
-  font-size: 14px;
+  font-size: 10px;
   font-family: "Roboto Slab","Helvetica Neue",Helvetica,Arial,sans-serif;
   text-align: right;
-}
-
-span.asterisk {
-  font-size: 18px;
-  font-family: "Roboto Slab","Helvetica Neue",Helvetica,Arial,sans-serif;
 }
 
 a,
@@ -298,8 +293,9 @@ header .container {
     position: relative;
 }
 
-header button.btn-xl {
+header .btn-xl {
     width: 100%;
+    white-space: normal;
 }
 
 header input.form-control {
@@ -314,17 +310,18 @@ header .intro-text {
 
 header .intro-text .row {
     margin: auto;
+    margin-bottom: 50px;
 }
 
 header .intro-text .intro-lead-in {
-    margin-bottom: 25px;
+    margin-bottom: 50px;
     font-family: "Valera Round, Droid Serif","Helvetica Neue",Helvetica,Arial,sans-serif;
     font-size: 30px;
-    line-height: 22px;
+    line-height: 45px;
 }
 
 header .intro-text .intro-heading {
-    margin-bottom: 25px;
+    margin-bottom: 50px;
     text-transform: uppercase;
     font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
     font-size: 40px;
@@ -334,7 +331,7 @@ header .intro-text .intro-heading {
 
 header .demo-image {
     background-image: url(../img/demo-image.jpg);
-    width: 95%;
+    width: 90%;
     margin: auto;
     height: 300px;
     background-size: cover;
@@ -348,53 +345,55 @@ header .demo-image {
 
 @media (min-width: 390px) {
     header .demo-image {
-        width: 95%;
         height: 400px;
     }
 }
 
 @media (min-width: 500px) {
     header .demo-image {
-        width: 95%;
         height: 500px;
     }
 }
 
 @media (min-width: 620px) {
     header .demo-image {
-        width: 95%;
         height: 500px;
     }
 }
 
 @media(min-width:768px) {
+    header .container {
+        height: 570px;
+    }
+
     header .intro-text {
-        padding-top: 150px;
+        padding-top: 160px;
         padding-bottom: 20px;
         width: 350px;
         text-align: left;
     }
 
     header .intro-text .intro-lead-in {
-        margin-bottom: 25px;
+        margin-bottom: 50px;
         font-family: "Valera Round, Droid Serif","Helvetica Neue",Helvetica,Arial,sans-serif;
         font-size: 27px;
         line-height: 40px;
     }
 
     header .intro-text .intro-heading {
-        margin-bottom: 30px;
+        margin-bottom: 50px;
         text-transform: uppercase;
         font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
-        font-size: 40px;
+        font-size: 35px;
         font-weight: 700;
+        width: 300px;
     }
 
     header .demo-image {
         position: absolute;
         width: 370px;
         right: 15px;
-        height: 510px;
+        height: 460px;
     }
 
     header input.form-control {
@@ -407,6 +406,10 @@ header .demo-image {
 }
 
 @media(min-width:992px) {
+    header .container {
+        height: 635px;
+    }
+
     header .intro-text {
         padding-top: 170px;
         padding-bottom: 20px;
@@ -415,13 +418,13 @@ header .demo-image {
     }
 
     header .intro-text .intro-lead-in {
-        margin-bottom: 25px;
+        margin-bottom: 50px;
         font-size: 30px;
         line-height: 40px;
     }
 
     header .intro-text .intro-heading {
-        margin-bottom: 30px;
+        margin-bottom: 50px;
         font-size: 40px;
         font-weight: 700;
     }
@@ -429,7 +432,7 @@ header .demo-image {
     header .demo-image {
         width: 460px;
         right: 40px;
-        height: 570px;
+        height: 500px;
     }
 }
 
@@ -442,7 +445,7 @@ header .demo-image {
     }
 
     header .intro-text .intro-lead-in {
-        margin-bottom: 25px;
+        margin-bottom: 50px;
         font-size: 30px;
         line-height: 40px;
     }
