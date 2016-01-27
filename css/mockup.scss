@@ -12,9 +12,14 @@
 	color: #FFFFFF;
 }
 
+.navbar-default {
+	background:	transparent;
+}
+
 .navbar-default.navbar-shrink {
 	padding-left: 40px;
 	padding-right: 40px;
+	background-color: $navbar-shrink;
 }
 
 @media (max-width: 767px) {

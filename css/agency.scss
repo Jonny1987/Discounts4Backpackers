@@ -178,7 +178,7 @@ fieldset[disabled] .btn-xl.active {
 
 .navbar-default {
     border-color: transparent;
-    background-color: transparent;
+    background-color: $navbar-shrink;
 }
 
 .navbar-default .navbar-brand {
@@ -247,13 +247,9 @@ fieldset[disabled] .btn-xl.active {
     margin-top: 5px;
 }
 
-.navbar-shrink {
-    background-color: $navbar-shrink;
-}
-
 @media(min-width:768px) {
     .navbar-default {
-        padding: 25px 0;
+        padding: 15px 0;
         border: 0;
         -webkit-transition: padding .3s;
         -moz-transition: padding .3s;
@@ -369,7 +365,7 @@ header .demo-image {
 
     header .intro-text .intro-lead-in {
         margin-bottom: 50px;
-        font-size: 28px;
+        font-size: 26px;
         line-height: 38px;
     }
 
@@ -386,7 +382,7 @@ header .demo-image {
         position: absolute;
         width: 360px;
         right: 15px;
-        height: 440px;
+        height: 470px;
     }
 
     header input.form-control {
@@ -425,7 +421,7 @@ header .demo-image {
     header .demo-image {
         width: 460px;
         right: 40px;
-        height: 500px;
+        height: 520px;
     }
 }
 

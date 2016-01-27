@@ -8,9 +8,13 @@
   background: #FD9D43;
   color: #FFFFFF; }
 
+.navbar-default {
+  background: transparent; }
+
 .navbar-default.navbar-shrink {
   padding-left: 40px;
-  padding-right: 40px; }
+  padding-right: 40px;
+  background-color: #1E6375; }
 
 @media (max-width: 767px) {
   .navbar-default.navbar-shrink {
