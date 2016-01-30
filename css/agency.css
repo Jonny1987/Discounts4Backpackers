@@ -949,15 +949,15 @@ section#business-summary .summary div.summary-text b {
     font-size: 20px; } }
 @media (min-width: 600px) {
   section#business-summary .summary div.summary-text b {
-    font-size: 22px; }
-
-  section#business-summary .summary div.summary-heading {
-    margin: 0 70px 0 70px; } }
+    font-size: 22px; } }
 @media (min-width: 992px) {
   section#business-summary .summary div.summary-text b {
     font-size: 24px; }
 
   section#business-summary .summary div.summary-text {
-    max-width: 400px; } }
+    max-width: 400px; }
+
+  section#business-summary .summary div.summary-heading {
+    margin: 0 120px 0 0; } }
 
 /*# sourceMappingURL=agency.css.map */

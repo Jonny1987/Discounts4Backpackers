@@ -1190,10 +1190,6 @@ section#business-summary .summary div.summary-text b {
     section#business-summary .summary div.summary-text b {
         font-size: 22px;
     }
-
-    section#business-summary .summary div.summary-heading {
-    margin: 0 70px 0 70px;
-}
 }
 
 @media(min-width: 992px) {
@@ -1203,5 +1199,10 @@ section#business-summary .summary div.summary-text b {
 
     section#business-summary .summary div.summary-text  {
         max-width: 400px;
+    }
+
+
+    section#business-summary .summary div.summary-heading {
+        margin: 0 120px 0 0;
     }
 }
