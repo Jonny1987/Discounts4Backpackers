@@ -459,7 +459,7 @@ section {
 
 section h2.section-heading {
     margin-top: 0;
-    margin-bottom: 15px;
+    margin-bottom: 30px;
     font-size: 40px;
 }
 
@@ -1123,86 +1123,100 @@ div.share {
     }
 }
 
-section#business-summary {
+section.business-summary {
     background-color: #fff;
     padding: 40px 0;
 }
 
-section#business-summary .summary {
-    border-radius: 60px;
+section.business-summary .summary {
     color: $services-bg;
-    background-color: #fff;
     padding: 40px;
 }
 
-section#business-summary .summary div.summary-heading {
+section.business-summary .summary div.summary-heading {
     display: inline-block;
     color: $navbar-buttons-active;
 }
 
-section#business-summary .summary div.summary-text {
+section.business-summary .summary div.summary-text {
     display: inline-block;
     max-width: 400px;
     vertical-align: middle;
     font-size: 17px;
     max-width: 500px;
+    font-family: Helvetica;
 }
 
-section#business-summary .summary div.summary-text b {
+section.business-summary .summary div.summary-text b {
     font-size: 24px;
 }
 
 @media(max-width: 300px) {
-    section#business-summary .summary div.summary-text {
+    section.business-summary .summary div.summary-text {
         font-size: 15px;
     }
-    section#business-summary .summary div.summary-text b {
+    section.business-summary .summary div.summary-text b {
         font-size: 17px;
     }
 }
 
 @media(min-width: 300px) {
-    section#business-summary .summary div.summary-text {
+    section.business-summary .summary div.summary-text {
         font-size: 16px;
     }
-    section#business-summary .summary div.summary-text b {
+    section.business-summary .summary div.summary-text b {
         font-size: 18px;
     }
 }
 
 @media(min-width: 350px) {
-    section#business-summary .summary div.summary-text b {
+    section.business-summary .summary div.summary-text b {
         font-size: 19px;
     }
 }
 
 @media(min-width: 451px) {
-    section#business-summary .summary div.summary-text {
+    section.business-summary .summary div.summary-text {
         font-size: 17px;
     }
 
-    section#business-summary .summary div.summary-text b {
+    section.business-summary .summary div.summary-text b {
         font-size: 20px;
     }
 }
 
 @media(min-width: 600px) {
-    section#business-summary .summary div.summary-text b {
+    section.business-summary .summary div.summary-text b {
         font-size: 22px;
     }
 }
 
 @media(min-width: 992px) {
-    section#business-summary .summary div.summary-text b {
+    section.business-summary .summary div.summary-text b {
         font-size: 24px;
     }
 
-    section#business-summary .summary div.summary-text  {
+    section.business-summary .summary div.summary-text  {
         max-width: 400px;
     }
 
 
-    section#business-summary .summary div.summary-heading {
+    section.business-summary .summary div.summary-heading {
         margin: 0 120px 0 0;
+    }
+}
+
+section.what-businesses {
+    background: $light-green;
+}
+
+@media (min-width: 992px) {
+    section.what-businesses .summary-heading {
+        width: 325px;
+        vertical-align: middle;
+    }
+
+    section.what-businesses .section-heading {
+        margin-bottom: 0px;
     }
 }
