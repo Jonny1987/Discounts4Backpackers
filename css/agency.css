@@ -912,7 +912,11 @@ section.business-summary .summary {
 
 section.business-summary .summary div.summary-heading {
   display: inline-block;
-  color: #FF9532; }
+  color: #FF9532;
+  max-width: 600px; }
+
+section.business-summary .summary div.summary-heading h2 {
+  margin-bottom: 20px; }
 
 section.business-summary .summary div.summary-text {
   display: inline-block;
@@ -957,13 +961,13 @@ section.business-summary .summary div.summary-text b {
     max-width: 400px; }
 
   section.business-summary .summary div.summary-heading {
-    margin: 0 120px 0 0; } }
+    margin: 0 120px 0 0;
+    width: 300px; } }
 section.what-businesses {
   background: #EAFAFF; }
 
 @media (min-width: 992px) {
   section.what-businesses .summary-heading {
-    width: 325px;
     vertical-align: middle; }
 
   section.what-businesses .section-heading {
